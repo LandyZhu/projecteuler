@@ -39,6 +39,8 @@ for i in range(min_3_digit_number*min_3_digit_number, max_3_digit_number*max_3_d
     
 print max(candidates)
         
+# A good solution: only 1 line
+# print max([ x*y for x in range(100,1000) for y in range(100,1000) if str(x*y) == str(x*y)[::-1]])
             
         
                 
